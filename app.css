@@ -1,0 +1,34 @@
+/*This is the css for heading section*/
+
+.heading-section{
+	display: flex;
+	font-family:inherit; 
+	font-size:2vw;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-bottom: 1px solid grey;
+}
+
+.city-image{
+	margin-left: 10px;
+}
+
+img{
+	width: 100%;
+}
+
+
+.city-text{
+	margin-left: 50px;
+}
+
+/*heading section css ends here*/
+
+/*css for menu*/
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 1vw;
+	margin-top: 1vw;
+}
