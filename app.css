@@ -4,11 +4,7 @@
 	display: flex;
 	font-family:sans-serif;
 	font-size:2vw;
-	border-bottom: 3px solid grey;
-	box-shadow: 4px 2px 3px grey;
-	height:12vw;
-	margin-left: 3%;
-	margin-right: 3%;
+	height:11vw;
 }
 
 .city-image{
@@ -21,3 +17,97 @@
 }
 
 /*heading section css ends here*/
+
+/* class for line */
+hr{
+	display: none;
+}
+
+/* class ends */
+
+/*  css for navigation  class*/
+nav{
+	display: none;
+}
+
+/* class ends*/
+
+
+.dog-image{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.first-section-image{
+	width: 100%;
+	position: relative; 
+}
+
+.first-section-text{
+	font-size: 3vw;
+	background-color: transparent;
+	position: absolute;
+	bottom: 0; 
+	background-color:rgba(0,0,0,0.7);
+	color: white;
+}
+
+
+
+
+/* Media Query for Desktop */
+
+@media only screen and (min-width: 961px){
+	
+	/*.heading-section{
+		margin-left: 3%;
+		margin-right: 3%;
+	}*/
+	
+	hr{
+		/*margin-left: 3%;
+		margin-right: 3%;*/
+		display: block;
+		box-shadow: 0px 2px 4px 1px #bdb7b7;
+		border-bottom: 1px solid rgb(194,191,191);
+	}
+
+	nav{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.first-section-text{
+		font-size: 3vw;
+		background-color: white;
+		position: absolute;
+		bottom: 0; 
+		/*background-color:rgba(0,0,0,0);*/
+		color:gray;
+	}
+
+}
+ /*Media query  for desktop ends */
+
+ /*media query for tablet */
+
+@media only screen and (min-width:401px) and (max-width:960 px){
+	
+	nav{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.first-section-text{
+		font-size: 3vw;
+		background-color: transparent;
+		position: absolute;
+		bottom: 0; 
+		background-color:rgba(0,0,0,0.7);
+		color: white;
+	}
+
+
+}
+
+/*media query for tablet ends */
