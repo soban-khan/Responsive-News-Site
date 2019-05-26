@@ -2,33 +2,22 @@
 
 .heading-section{
 	display: flex;
-	font-family:inherit; 
+	font-family:sans-serif;
 	font-size:2vw;
-	margin-left: 25px;
-	margin-right: 25px;
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid grey;
+	box-shadow: 4px 2px 3px grey;
+	height:12vw;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 .city-image{
-	margin-left: 10px;
+	height: 10vw;
 }
-
-img{
-	width: 100%;
-}
-
 
 .city-text{
-	margin-left: 50px;
+	color:lightslategray;
+	margin-left: 5%;
 }
 
 /*heading section css ends here*/
-
-/*css for menu*/
-
-.menu{
-	display: flex;
-	justify-content: space-around;
-	margin-left: 1vw;
-	margin-top: 1vw;
-}
