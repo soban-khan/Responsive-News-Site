@@ -58,6 +58,29 @@ nav {
 	justify-content: space-between;
 }
 
+.table-head{
+	display: flex;
+	justify-content: space-around;
+	background-color: #bdb7b7;
+	color: white;
+}
+
+.table{ 
+	font-family: sans-serif;
+	width:100%;
+	text-align: center;
+	font-size: 3vw;
+	color: rgb(85, 71, 71);
+}
+
+tr:nth-child(even){
+	background: rgb(172, 171, 171);
+}
+
+tr>td:first-child{
+	text-align: left;
+}
+
 
 
 /*media query for mobile */
@@ -110,6 +133,38 @@ nav {
 	  margin-right:3%;
 	  font-size: 1.3vw;
   }
+
+  tr:nth-child(even){
+	background: none;
+}
+
+.table-head{
+	background-color:white;
+	color: grey;
+	text-align: left; 
+}
+
+.table{
+	margin-left: 3%;
+	margin-right: 3%;
+	font-size: 1.1vw;
+	color: black;
+	text-align: center;
+}
+
+tr>td:last-child{
+	padding-left: 9%;
+	text-align: left;
+}
+tr>td:nth-child(2)
+{
+	padding-right:4%;
+}
+tr>td:not(:first-child):not(:nth-child(2)):nth-child(-n+4){
+	padding-right:12%;
+}
+
+
 }
 /*Media query  for desktop ends */
 
@@ -118,8 +173,7 @@ nav {
 /*media query for tablet */
 
 @media only screen and (min-width: 401px) and (max-width: 960 px) {
- 
-
+	
 }
 
 /*media query for tablet ends */
