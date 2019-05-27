@@ -126,7 +126,7 @@ tr > td:first-child {
 
 .dog-texta img{
   float: left;
-  position: relative;
+  /* position: relative; */
   width: 15%;
   height: 15%;
 }
@@ -134,17 +134,22 @@ tr > td:first-child {
 .dog-text1 h5{
   margin: 0%;;
   padding: 0%;
+  font-family: sans-serif;
+  color: grey;
 } 
 
  .dog-text1 p{
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 0%;
+  font-family: sans-serif;
+  color: grey;
 } 
 
 
 .dog-textb img{
   float: left;
+  /* position: relative; */
   width: 15%;
   height: 15%;
 }
@@ -152,17 +157,21 @@ tr > td:first-child {
 .dog-text2 h5{
   margin: 0%;
   padding: 0%;
+  font-family: sans-serif;
+  color: grey;
 }
 
 .dog-text2 p{
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 0%;
+  font-family: sans-serif;
+  color: grey;
 }
 
 .dog-textc img{
   float: left;
-  position: relative;
+  /* position: relative; */
   width: 15%;
   height: 15%;
 }
@@ -170,17 +179,21 @@ tr > td:first-child {
 .dog-text3 h5{
   margin: 0%;;
   padding: 0%;
+  font-family: sans-serif;
+  color: grey;
 } 
 
  .dog-text3 p{
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 0%;
+  font-family: sans-serif;
+  color: grey;
 } 
 
 .dog-textd img{
   float: left;
-  position: relative;
+  /* position: relative; */
   width: 15%;
   height: 15%;
 }
@@ -188,12 +201,16 @@ tr > td:first-child {
 .dog-text4 h5{
   margin: 0%;;
   padding: 0%;
+  font-family: sans-serif;
+  color: grey;
 } 
 
  .dog-text4 p{
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 0%;
+  font-family: sans-serif;
+  color: grey;
 } 
 
 
@@ -324,15 +341,15 @@ footer{
   }
 
   tr > td:last-child {
-    /* padding-left: 9%; */
-    text-align: left;
+    padding-left: 9%;
+     text-align: left;
   }
   tr > td:nth-child(2) {
-    /* padding-right: 14%; */
+    padding-left: 5%;
     text-align: center;
   }
   tr > td:not(:first-child):not(:nth-child(2)):nth-child(-n + 4) {
-    padding-right: 12%;
+    padding-left: 2%;
   }
 
   .weather-report {
